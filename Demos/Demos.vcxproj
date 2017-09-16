@@ -118,6 +118,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="FleetLevel.cpp" />
+    <ClCompile Include="FleetScene.cpp" />
     <ClCompile Include="Framework\Data\AABB.cpp" />
     <ClCompile Include="Framework\Data\Grid.cpp" />
     <ClCompile Include="Framework\Entities\Entity.cpp" />
@@ -132,10 +134,17 @@
     <ClCompile Include="Framework\Scene.cpp" />
     <ClCompile Include="Framework\Utility\Random.cpp" />
     <ClCompile Include="Framework\Utility\Utility.cpp" />
+    <ClCompile Include="Level.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="MainScene.cpp" />
+    <ClCompile Include="Order.cpp" />
+    <ClCompile Include="Ship.cpp" />
+    <ClCompile Include="SpaceScene.cpp" />
+    <ClCompile Include="Unit.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="FleetLevel.h" />
+    <ClInclude Include="FleetScene.h" />
     <ClInclude Include="Framework\Data\AABB.h" />
     <ClInclude Include="Framework\Data\Grid.h" />
     <ClInclude Include="Framework\Data\Pair.h" />
@@ -151,7 +160,12 @@
     <ClInclude Include="Framework\Scene.h" />
     <ClInclude Include="Framework\Utility\Random.h" />
     <ClInclude Include="Framework\Utility\Utility.h" />
+    <ClInclude Include="Level.h" />
     <ClInclude Include="MainScene.h" />
+    <ClInclude Include="Order.h" />
+    <ClInclude Include="Ship.h" />
+    <ClInclude Include="SpaceScene.h" />
+    <ClInclude Include="Unit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
